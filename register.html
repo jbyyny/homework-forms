@@ -34,7 +34,7 @@
 						<ul>
 							<li>
 							    <label for="fullname">Name:</label>
-							    <input type=“text” name=“fullname” placeholder="John Doe">
+							    <input type=“text” name=“fullname” placeholder="First and Last Name">
 							</li>
 
 							<li>
@@ -106,33 +106,21 @@
 
 							<li>
 							    <label for="pass">Password:</label>
-							    <input type=“password” name=“password” placeholder="8 characters required">
+							    <input type=“password” name=“password” placeholder="6 characters required">
 							</li>
 
 
-						 	<li>
-						    <label for="service">Which service are you interested in?</label>
-
-						    <input type="radio" name="service" id="relaxing" value="relaxing"><label>Relaxing</label>
-
-						    <input type="radio" name="service" id="Phone" value="phone"><label>Phone</label>
-
-						    <input type="radio" name="service" id="email"><label>Email</label>
-						 </div>
-
-						</li>
-					</ul>
-
-
-		  <div class="input-wrapper">
-	      <input type="checkbox" name="beatles" id="checkbox-1">
-	      <label for="checkbox-1">I agree to the terms</label>
-	    </div>
-
-		  <div class="input-wrapper">
-				<input type="submit" value="Register Now!" class="blue2">
-			</section>
-		  </div>
+							<li>
+								<label for="service">Which service are you interested in?</label>
+								<input type="radio" name="service" value="Relaxing" class="radio"> Relaxing
+								<input type="radio" name="service" value="Email" class="radio"> Email
+								<input type="radio" name="service" value="Phone" class="radio"> Phone
+							</li>
+							<li>
+								<input type="checkbox" name="terms" class="radio"> <span class="terms">I agree to the terms</span>
+							</li>
+							<li><input type="submit" value="Register Now!" class="button blue"></li>
+						</ul>
 
 		</form>
 		</section>
