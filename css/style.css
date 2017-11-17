@@ -116,7 +116,7 @@ header nav ul li a {
   border-radius: 5px;
   font-weight: 800;
   padding: 12px 0;
-  width: 240px;
+  width: 220px;
   font-size: 28px;
   text-align: center;
   display: block;
@@ -133,7 +133,7 @@ header nav ul li a {
   font-weight: 300; 
 }
 
-.blue2 {
+/*.blue2 {
   background: #033048;
   color: #fff;
   font-size: 20px;
@@ -147,7 +147,7 @@ header nav ul li a {
   display: block;
   margin: 20px;
   padding-right: -24px;
-}
+}*/
 
 #benefits {
   padding: 100px 0 80px;
@@ -317,6 +317,11 @@ footer p {
   header {
     padding: 10px;
   }
+
+  form {
+    padding: 20px;
+  }
+
   h3 {
     font-size: 30px;
   }
@@ -386,6 +391,89 @@ footer p {
     display: none;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 20px;
+  }
+  header {
+    padding: 10px;
+  }
+  form {
+    padding: 20px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+  .logo {
+    font-size: 36px;
+  }
+  header nav ul li {
+    margin: 0px 20px 0 0;
+  }
+  header nav ul li {
+    font-size: 18px;
+  }
+  #hero {
+    height: auto;
+    padding: 30px 0 50px;
+  }
+  #hero h2 {
+    font-size: 28px;
+    margin: 40px 0 60px;
+  }
+  #benefits {
+    padding: 30px 0;
+  }
+  #benefits p, #benefits ul {
+    width: 82%;
+    margin: 0 auto 20px;
+  }
+  blockquote {
+    font-size: 20px;
+    width: 90%;
+  }
+  #main {
+    margin-top: 25px;
+  }
+  footer .logo, footer ul li {
+    margin-bottom: 30px;
+  }
+  #posts, #sidebar {
+    margin: 0 auto;
+    width: 95%;
+    display: block;
+  }
+  .post h2 {
+    font-size: 24px;
+  }
+  .post p {
+    font-size: 18px;
+  }
+  .post p:first-of-type:first-letter {
+    float: none;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 0;
+    font-weight: 300;
+  }
+  .post img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #sidebar h3 {
+    font-size: 24px;
+  }
+  #sidebar ul li a, #sidebar p {
+    font-size: 18px;
+  }
+  #sidebar img {
+    display: none;
+  }
+}
+
+
 
 /*THIS IS THE FORM STYLING*/
 form {
