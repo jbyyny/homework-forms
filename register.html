@@ -20,7 +20,7 @@
 					<ul>
 						<li><a href="index.html">Home</a></li>
 						<li><a href="blog.html">Blog</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="mailto:" target="_top">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -29,25 +29,25 @@
 			<div class="container">
 				<section id="contact">
 				<h1>Sign Up</h1>
-					<form>
+					<form name="my-form" id="my-form" class="my-form">
 						<ul>
 							<li>
-							    <label for="fullname">Name:</label>
+								<label for="fullname">Name</label>
 							    <input type=“text” name=“fullname” placeholder="First and Last Name">
 							</li>
 
 							<li>
-							    <label for="email">Email:</label>
+							    <label for="email">Email</label>								
 							    <input type=“email” name=“email” placeholder="youremail@companyname.com">
 							</li>
 
 							<li>
-							    <label for="phone">Phone:</label>
+								<label for="phone">Phone</label>
 							    <input type=“phone” name=“phone” placeholder="555-555-5555">
 							</li>
 
 							<li>
-								<label for="state">State:</label>
+								<label for="state">State</label>
 								<select name="state">
 									<option value="AL">Alabama</option>
 									<option value="AK">Alaska</option>
@@ -104,8 +104,8 @@
 							</li>
 
 							<li>
-							    <label for="pass">Password:</label>
-							    <input type=“password” name=“password” placeholder="6 characters required">
+								<label for="pass">Password</label>
+								<input type=“password” name=“password” id="pass" placeholder="minimum 6 characters">
 							</li>
 
 
@@ -118,9 +118,11 @@
 							<li>
 								<input type="checkbox" name="terms" class="radio"> <span class="terms">I agree to the <a href class=terms-hover>terms</a></span>
 							</li>
-							<li><input type="submit" value="Submit" class="button blue"></li>
-						</ul>
+<!-- 							<li><input type="submit" value="Submit" class="button blue">
+								<a href="thanks.html"></a></li> -->
+							<li><a class="button blue" value="Submit" href="thanks.html">Submit</a></li>
 
+						</ul>
 					</form>
 				</section>
 			</div>
@@ -134,5 +136,10 @@
 
 			<p class="copyright">Copyright 2015. Relaxr.</p>
 		</footer>
+		<script
+		  src="https://code.jquery.com/jquery-3.2.1.min.js"
+		  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		  crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/index.js"></script>
 	</body>
 </html>
